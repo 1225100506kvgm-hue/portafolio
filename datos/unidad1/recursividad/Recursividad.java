@@ -2,18 +2,19 @@ package datos.unidad1.recursividad;
 
 public class Recursividad {
 
-	public static void saludo(int total) {
-	
-		if(total <= 0)
-			return;
-		else{
-			System.out.println("Hola");
-			saludo(total-1);
-		}
-	}
+    public static void saludo(String nombre, int total) {
 
-	public static void main(String[] args) {
-		saludo(10);
-	
-	}
+        if(total <= 0)
+            return;
+        else {
+            System.out.println("Hola " + nombre);
+
+            saludo(nombre, total - 1);
+        }
+    }
+
+    public static void main(String[] args) {
+
+        saludo("Katya Valentina", 10);
+    }
 }
