@@ -41,8 +41,8 @@ public class Recursividad {
 
        
     public static void main(String[] args) {
-        saludo("Katya Valentina", 10);
-        cuentaRegresiva(100);
+       // saludo("Katya Valentina", 10);
+        //cuentaRegresiva(100);
         int[] datos = {3, 4, 5, 6, 7, 8};
         int resultado = sumaRecursiva(datos, datos.length - 1);  
         System.out.println("La suma de los elementos es: " + resultado);   
