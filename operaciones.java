@@ -1,10 +1,9 @@
 public class operaciones {
-	public static void multiplicacion(int a, int b) {
-		return a * b;
+    public static void main(String[] args) {
+        int num1 = 5;
+        int num2 = 4;
+        int resultado = num1 * num2;
 
-	}
-	public static void main(String[] args) {
-		multiplicacion(4, 5);
-
-	}
+        System.out.println("El resultado de " + num1 + " * " + num2 + " es: " + resultado);
+    }
 }
